@@ -19,32 +19,31 @@ Booleano: viene utilizzato per capire se un uguaglianza sia vera o falsa. Infatt
 Undefined: è una variabile a cui non è ancora stato assegnato un valore
 Null: indica l'assenza esplicita di un valore */
 
-
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const myName = 'Anna'
-console.log(myName)
+const myName = "Anna";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number1 = 12
-let number2 = 20
-addition = number1 + number2
-console.log(addition)
+let number1 = 12;
+let number2 = 20;
+addition = number1 + number2;
+console.log(addition);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12
-console.log(x)
+let x = 12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -52,7 +51,7 @@ console.log(x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*let myName = Firinu
+/*myName = Firinu
 console.log(maName)*/
 
 /* ESERCIZIO 6
@@ -60,9 +59,9 @@ console.log(maName)*/
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number3 = 4
-subtraction = x - number3
-console.log(subtraction)
+let number3 = 4;
+subtraction = number3 - x;
+console.log(subtraction);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -71,7 +70,7 @@ console.log(subtraction)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1 = 'john'
-let name2 = 'John'
-console.log(name1 === name2)
-console.log(name1 === name2.toLowerCase())
+let name1 = "john";
+let name2 = "John";
+console.log(name1 === name2);
+console.log(name1 === name2.toLowerCase());
